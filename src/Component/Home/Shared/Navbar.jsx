@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
  
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar max-w-[1440px] mx-auto pt-3 px-12 bg-base-100">
+            <div className="navbar max-w-[1440px] mx-auto py-4 px-12 bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +24,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 p-2 shadow">
                          <a className="">Buy</a>
                         <a className="">Sell</a>
                         <a className="">Services</a>
@@ -36,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center flex">
-                    <Logo/>
+                    <Link to="/"> <Logo/></Link>
                 </div>
                 <div className="navbar-end space-x-5">
                     <a className="">Manage Rentals</a>
