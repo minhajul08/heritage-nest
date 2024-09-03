@@ -17,7 +17,7 @@ const PlotList = () => {
                 </div>
                 <div className="w-full p-5 rounded-md bg-blue-100">
                     <div className="space-y-3">
-                        <h2 className="text-3xl font-bold text-blue-600 h-8"></h2>
+                        <h2 className="text-3xl font-bold text-blue-600 ">2K+</h2>
                         <p>New Flat Listed</p>
                     </div>
                     <div className="mt-10 flex justify-between items-center">

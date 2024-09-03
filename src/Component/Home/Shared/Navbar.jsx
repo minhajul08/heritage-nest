@@ -32,16 +32,16 @@ const Navbar = () => {
                     </div>
                     <div className="lg:flex hidden items-center gap-6">
                         <a className=""> <Link to="/buy">Buy</Link></a>
-                        <a className="">Sell</a>
-                        <a className="">Services</a>
+                       <Link> <a className="">Sell</a></Link>
+                        <Link><a className="">Services</a></Link>
                     </div>
                 </div>
                 <div className="navbar-center flex">
                     <Link to="/"> <Logo/></Link>
                 </div>
                 <div className="navbar-end space-x-5">
-                    <a className="">Manage Rentals</a>
-                    <a className="">Sign in</a>
+                   <Link to="/find-property"> <a className="">Manage Rentals</a></Link>
+                    <Link><a className="">Sign in</a></Link>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Properties = () => {
                 <div className="flex items-center py-4 border-b-[1px] gap-8">
                     <li className="px-3 py-2 list-none bg-blue-700 text-white rounded"><a>Properties (400)</a></li>
                     <li className="px-3 py-2 list-none bg-blue-100 rounded"><a>New Project (400)</a></li>
-                    <li className="px-3 py-2 list-none bg-blue-100 rounded"><a>Pre Lunch Offers </a></li>
+                    <li className="px-3 py-2 list-none bg-blue-100 rounded"><a>Pre Launch Offers </a></li>
                 </div>
                 <div className="border-b-2 pb-3">
                     <h2 className="font-semibold text-2xl mt-7">400 results for rental</h2>

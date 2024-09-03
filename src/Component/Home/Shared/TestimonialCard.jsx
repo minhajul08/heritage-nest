@@ -27,13 +27,13 @@ const TestimonialCard = ({image, image1}) => {
                     <input
                         type="radio"
                         name="rating-2"
-                        className="mask mask-star-2 bg-[#FEC84B]"
+                        className="mask mask-star-2 bg-[#FEC84B]" defaultChecked 
                         />
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#FEC84B]" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#FEC84B]"  defaultChecked />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#FEC84B]"  />
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#FEC84B]" />
                 </div>
-                <p>" The label of security provided by cypherplay is unmatched. I feel confident using my card for both everyday parchases and travel. Its the peace of mind i was looking for. "</p>
+                <p> " The label of security provided by cypherplay is unmatched. I feel confident using my card for both everyday parchases and travel. Its the peace of mind i was looking for. "</p>
                 <div className="flex mt-9 justify-center items-center flex-col">
                     <img className="w-24 h-24 rounded-[100%]" src={image1} alt="" />
                     <h2 className="font-semibold text-xl">Tony stark</h2>

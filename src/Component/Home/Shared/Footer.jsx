@@ -26,7 +26,7 @@ const Footer = () => {
                     </nav>
                     <nav>
                         <h6 className="footer-title">Company</h6>
-                        <a className="link link-hover">About us</a>
+                        <a className="link link-hover"><Link to="/about">About us</Link></a>
                         <a className="link link-hover">Contact</a>
                         <a className="link link-hover">Jobs</a>
                         <a className="link link-hover">News</a>

@@ -3,6 +3,7 @@ import Root from "../Root/Root";
 import Home from "../Component/Home/Home"; 
 import BuyerScree from "../Pages/Buyer screen/BuyerScree";
 import BuyerResult from "../Pages/BuyerSearchResult/BuyerResult";
+import AboutPage from "../Pages/About/AboutPage";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
          {
             path: '/find-property',
             element: <BuyerResult/>
+         },
+         {
+            path: '/about',
+            element: <AboutPage/>
          }
       ]
     },

@@ -1,7 +1,7 @@
 .line{
     position: relative;
 }
-#span{
+#org{
     content: "";
     width: 30px;
     height: 3px;

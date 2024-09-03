@@ -83,10 +83,10 @@ const Popular = () => {
                    
                 </div>
                 <div className='max-w-[1240px] absolute top-1/2  left-0 lg:left-[4%]  w-full '>
-                   <div className='     w-full flex items-center justify-between'>
-                    <p className='p-4 rounded-full bg-blue-400 text-white'><FaAngleLeft /></p>
-                    <p className='p-4 rounded-full bg-blue-400 text-white'><FaAngleRight /></p>
-                </div>  
+                   <div className='w-full flex items-center justify-between'>
+                        <p className='p-4 rounded-full bg-blue-400 text-white'><FaAngleLeft /></p>
+                        <p className='p-4 rounded-full bg-blue-400 text-white'><FaAngleRight /></p>
+                    </div>  
                 </div>
                
                 </div>

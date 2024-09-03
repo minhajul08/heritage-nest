@@ -23,7 +23,7 @@ const PropertyBue = () => {
                         </div>
                     </div>
                     <div className="pr-0 md:pr-20">
-                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="span"></span> Propert buying</h4>
+                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="org"></span> Propert buying</h4>
                         <h2 className="text-4xl font-bold py-5">Efficient And Transparent Home Buying Solution</h2>
                         <p>It is a long eatablished fact that a redear will be directad by the readable content of a page when looking at its layout.</p>
                         <button className='btn rounded-sm mt-10 bg-[#2564eb1e]  hover:bg-[#2564eb34] text-blue-600 flex items-center gap-2 border-none outline-none '><CiSearch />Find property</button>
@@ -31,7 +31,7 @@ const PropertyBue = () => {
                 </div>
                 <div className="grid grid-cols-1 space-y-6 md:space-y-0 p-6 md:grid-cols-2 gap-10 mt-12 md:mt-32">
                 <div className="pr-0 md:pr-20">
-                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="span"></span> Propert buying</h4>
+                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="org"></span> Propert buying</h4>
                         <h2 className="text-4xl font-bold py-5">Efficient And Transparent Home Buying Solution</h2>
                         <p>It is a long eatablished fact that a redear will be directad by the readable content of a page when looking at its layout.</p>
                         <button className='btn rounded-sm mt-10 bg-[#2564eb1e] hover:bg-[#2564eb34] text-blue-600 flex items-center gap-2 border-none outline-none '><CiSearch />Find property</button>
@@ -58,7 +58,7 @@ const PropertyBue = () => {
                         </div>
                     </div>
                     <div className="pr-0 md:pr-20">
-                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="span"></span> Propert buying</h4>
+                        <h4 className="line font-bold pl-[40px] text-orange-600"> <span id="org"></span> Propert buying</h4>
                         <h2 className="text-4xl font-bold py-5">Efficient And Transparent Home Buying Solution</h2>
                         <p>It is a long eatablished fact that a redear will be directad by the readable content of a page when looking at its layout.</p>
                         <button className='btn rounded-sm  mt-10 bg-[#2564eb1e] hover:bg-[#2564eb34] text-blue-600 flex items-center gap-2 border-none outline-none '><CiSearch />Find property</button>
