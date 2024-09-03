@@ -6,7 +6,7 @@ import { MdOtherHouses, MdOutlineAttachMoney } from 'react-icons/md';
 const BuyerCover = () => {
     return (
         <div>
-            <div className="max-w-[1440px] md:mb-36 mb-16 relative mx-auto">
+            <div className="max-w-[1440px] mb-52 md:mb-36  relative mx-auto">
                 <img src={cover} className='w-full h-[350px] object-cover' alt="cover Image" />
                 <div className="absolute max-w-[1440px] mx-auto inset-0 bg-gradient-to-b from-[#0e13257a] to-[#141313ad] "></div>
                 <div className='absolute top-[20%]  md:left-[15%] md:max-w-[950px] w-full  mx-auto bg-white shadow-md rounded-xl p-8'>
