@@ -4,6 +4,7 @@ import Home from "../Component/Home/Home";
 import BuyerScree from "../Pages/Buyer screen/BuyerScree";
 import BuyerResult from "../Pages/BuyerSearchResult/BuyerResult";
 import AboutPage from "../Pages/About/AboutPage";
+import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails";
 
 export const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
          {
             path: '/about',
             element: <AboutPage/>
+         },
+         {
+            path: '/details',
+            element: <PropertyDetails/>
          }
       ]
     },
