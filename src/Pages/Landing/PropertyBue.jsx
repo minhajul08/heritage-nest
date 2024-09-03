@@ -5,7 +5,7 @@ import thumbnel3 from '../../assets/images/thumbnale (2).jpg'
 import thumbnel4 from '../../assets/images/thumbnale.jpg'
 import thumbnel5 from '../../assets/images/miniCat (1).jpg'
 import thumbnel6 from '../../assets/images/miniCat (2).jpg'
-import './style.css'
+import './landing.css'
 import { FaPlay } from 'react-icons/fa';
 const PropertyBue = () => {
     return (

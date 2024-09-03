@@ -1,7 +1,7 @@
  
 import { Swiper, SwiperSlide } from 'swiper/react';
-import image1 from '../../assets/buyer images/profile-picture.jpeg'
-import image2 from '../../assets/buyer images/pro.jpg'
+import image1 from '../../../assets/buyer images/profile-picture.jpeg'
+import image2 from '../../../assets/buyer images/pro.jpg'
 import 'swiper/css';
 import 'swiper/css/pagination';
  
@@ -11,7 +11,7 @@ import { Pagination } from 'swiper/modules';
 import TestimonialCard from './TestimonialCard';
 const Testimonials = () => {
     return (
-        <div className='max-w-[1240px] mx-auto px-4'>
+        <div className='max-w-[1240px] mx-auto mb-8 px-4'>
         <div>
             <h2 className='text-4xl font-semibold text-center'>Testimonials</h2>
         </div>

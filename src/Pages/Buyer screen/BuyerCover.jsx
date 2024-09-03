@@ -3,6 +3,7 @@ import cover from '../../assets/buyer images/buyercover (2).jpg'
  import './style.css'
 import { FaAngleDown, FaSearch } from 'react-icons/fa';
 import { MdOtherHouses, MdOutlineAttachMoney } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 const BuyerCover = () => {
     return (
         <div>
@@ -52,7 +53,7 @@ const BuyerCover = () => {
                     </div>
 
                     <div>
-                        <button className='btn w-full bg-blue-700 mt-5 flex items-center gap-3 hover:bg-blue-700 text-white'><FaSearch /> Find Property</button>
+                    <Link to="/find-property"><button className='btn w-full bg-blue-700 mt-5 flex items-center gap-3 hover:bg-blue-700 text-white'><FaSearch /> Find Property </button> </Link> 
                     </div>
 
                 </div>
