@@ -1,6 +1,6 @@
  ## Harigate Nest
 
-### Live link: https://haritage-nest-nsiwu6mbj-minhajul-islam-nirobs-projects.vercel.app
+### Live link: https://haritage-nest.vercel.app/
 
 ## Installation
 
